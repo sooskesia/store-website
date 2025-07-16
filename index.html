@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Store - Professional Online Shopping</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">My Store</a>
+            <ul class="nav-links">
+                <li><button id="nav-home" class="active" onclick="showPage('home')">Home</button></li>
+                <li><button id="nav-store" onclick="showPage('store')">Store</button></li>
+                <li><button id="nav-about" onclick="showPage('about')">About Us</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Page -->
+    <div id="home-page" class="page active">
+        <div class="container">
+            <div class="page-header">
+                <h1 class="page-title">Welcome to My Store</h1>
+                <p class="page-subtitle">Your one-stop shop for amazing products</p>
+            </div>
+
+            <!-- Featured Products -->
+            <div class="featured-section">
+                <h2 class="section-title">Featured Products</h2>
+                <div id="featured-products" class="product-grid">
+                    <!-- Products will be loaded here by JavaScript -->
+                </div>
+            </div>
+
+            <!-- Blog Section -->
+            <div class="blog-section">
+                <h2 class="section-title">Latest News & Updates</h2>
+                <div id="blog-posts" class="blog-grid">
+                    <!-- Blog posts will be loaded here by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Store Page -->
+    <div id="store-page" class="page">
+        <div class="container">
+            <div class="page-header">
+                <h1 class="page-title">Our Store</h1>
+                <p class="page-subtitle">Discover our amazing product collection</p>
+            </div>
+            <div id="all-products" class="product-grid">
+                <!-- All products will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- About Page -->
+    <div id="about-page" class="page">
+        <div class="container">
+            <div class="page-header">
+                <h1 class="page-title">About Us</h1>
+                <p class="page-subtitle">Learn more about our company and mission</p>
+            </div>
+            <div class="about-content">
+                <div class="about-section">
+                    <h2>Our Story</h2>
+                    <p>Welcome to My Store! We've been serving customers with high-quality products since 2020. Our mission is to provide exceptional products at affordable prices while delivering outstanding customer service.</p>
+                </div>
+                
+                <div class="about-section">
+                    <h2>What We Offer</h2>
+                    <ul>
+                        <li>Carefully curated product selection</li>
+                        <li>Competitive pricing</li>
+                        <li>Fast and reliable shipping</li>
+                        <li>30-day return policy</li>
+                        <li>24/7 customer support</li>
+                    </ul>
+                </div>
+                
+                <div class="about-section">
+                    <h2>Contact Information</h2>
+                    <p><strong>Email:</strong> info@mystore.com</p>
+                    <p><strong>Phone:</strong> (555) 123-4567</p>
+                    <p><strong>Address:</strong> 123 Store Street, City, State 12345</p>
+                    <p><strong>Hours:</strong> Monday - Friday: 9AM - 6PM</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 My Store. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
